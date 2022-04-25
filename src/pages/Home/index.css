@@ -65,8 +65,7 @@
 }
 @media (max-width: 480px) {
   .kCznXV,
-  .fVTnYc
-   {
+  .fVTnYc {
     padding: 0 10px !important;
   }
 }
@@ -77,12 +76,22 @@ body {
   /* background-color: #071731 !important; */
   background-color: #690a74 !important;
 }
-.huihyY .foiiQF .desktop-icon {
-  width: 50px !important;
+
+.huihyY {
+  width: 100px !important;
   margin: 10px 0px !important;
 }
+body img {
+  height: auto;
+  max-width: 155% !important;
+}
+.desktop-icon {
+  width: 156px !important;
+}
 .foiiQF .desktop-icon {
-  width: 50px !important;
+  height: 100% !important;
+  max-height: 155% !important;
+  /* width: 100px !important; */
   margin: 10px 0px !important;
 }
 h1,
@@ -178,7 +187,7 @@ li {
   }
 }
 .logo_wheswap img {
-  width: 50px !important;
+  width: 200px !important;
   height: 50px !important;
 }
 .logo_wheswap {
@@ -2629,4 +2638,113 @@ prise_name .wallet_btn {
 .my-4 {
   margin-bottom: 0 !important;
 }
+.ulImge {
+  width: 110px !important;
+  height: 110px !important;
+}
+.ule_animation2 {
+  /* animation: animName 2s linear infinite; */
+  width: 120px;
+  height: 120px;
+  background-size: 100%;
+  top: 5px;
+  left: 54px;
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.ule_animation3 {
+  animation: rotate 2s linear infinite;
+  width: 70%;
+  text-align: center;
+
+  background-size: 100%;
+}
+.defi_main {
+  padding-top: 0rem;
+  margin-bottom: 8rem;
+  top: 18px;
+}
+.defi-col {
+  flex-direction: column;
+}
+
+.defi_heading {
+  text-align: center;
+}
+.defi_heading img {
+  height: 186px;
+  margin-bottom: 2rem;
+}
+.defi_heading h1 {
+  font-weight: 600;
+  font-size: 48px;
+}
+.defi_heading p {
+  font-size: 20px;
+  margin-top: 1rem;
+}
+.social_icon ul li {
+  display: inline-block;
+  margin: 11px;
+  border: 1px solid #d2d3d7;
+  background: #fff;
+  /* padding: 15px 25.5px; */
+  border-radius: 5px;
+  min-height: 48px;
+}
+.social_icon ul li a {
+  color: #fff;
+  border-radius: 55px;
+  font-size: 30px;
+  padding: 3px 17.5px;
+  transition: 0.5s;
+}
+
+.footer {
+  margin-bottom: 0px;
+  padding-top: 23px;
+}
+.social_icon ul li:nth-child(1) {
+  background: #3b5998;
+}
+.social_icon ul li {
+  display: inline-block;
+  margin: 11px;
+  border: 1px solid #d2d3d7;
+  background: #fff;
+  padding: 10px 10px;
+  border-radius: 5px;
+  min-height: 48px;
+}
+.social_icon ul li a {
+  color: #fff;
+  border-radius: 55px;
+  font-size: 30px;
+  padding: 3px 17.5px;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social_icon ul li:nth-child(2) {
+  background: #32afed;
+}
+.social_icon ul li:nth-child(3) {
+  background: #d52f6a;
+}
+.social_icon ul li:nth-child(4) {
+  background: #1d9bf0;
+}
+.social_icon ul li:nth-child(5) {
+  background: #0f61b3;
+}
+
 /*----======================defi page end=====================-----*/

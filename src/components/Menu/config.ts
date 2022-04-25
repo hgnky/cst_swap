@@ -1,5 +1,5 @@
 import { MenuEntry } from '@pancakeswap-libs/uikit'
-
+import { url } from 'inspector'
 const config: MenuEntry[] = [
   {
     label: 'Home',
@@ -33,16 +33,15 @@ const config: MenuEntry[] = [
     href: '/farms',
   },
   {
-    label: 'Game',
+    label: '6 Patti CST Game',
     icon: 'TeamBattleIcon',
     href: 'https://www.game.cstswap.finance',
   },
   {
-    label: 'Game 2',
+    label: '10 Patti CST Game',
     icon: 'TeamBattleIcon',
     href: 'https://www.game2.cstswap.finance',
   },
-  // ,
   // {
   //   label: 'Lottery',
   //   icon: 'TicketIcon',

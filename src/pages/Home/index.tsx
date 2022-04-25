@@ -39,6 +39,12 @@ import AppBody from '../AppBody'
 import './index.css'
 import Cake from './logo_icon.png'
 import logo from './logo.png'
+import thumb from '../../assets/images/thumb.png'
+import token from '../../assets/images/TOKEN.png'
+import bnb from '../../assets/images/bnb.png'
+import tron from '../../assets/images/tron.png'
+import usdt from '../../assets/images/usdt.png'
+import logo2 from '../../assets/images/logo.png'
 const Swap = () => {
   const loadedUrlParams = useDefaultsFromURLSearch()
   const TranslateString = useI18n()
@@ -304,7 +310,7 @@ const Swap = () => {
                 </a>
               </div>
             </div>
-            <div className="col-md-12">
+            {/* <div className="col-md-12">
               <div className="row">
                 <div className="col-md-3">
                   <div className="defi_price_box">
@@ -334,10 +340,123 @@ const Swap = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
+            <section className="defi_main">
+              <div className="container">
+                <div className="row">
+                  <div className="col-md-6 col-sm-12 d-flex justify-content-center align-items-start defi-col">
+                    <div className="defi_heading text-left" style={{ textAlign: 'start' }}>
+                      <h1>Trade Anything. No Registration.</h1>
+                      <p>Trade BNB, TRON, USDT on BNB Smart Chain in seconds, just by connecting your wallet.</p>
+                    </div>
+                    <div className="defi_btn text-left">
+                      <a href="/#/swap" className="btn button defi_button_bg mr_btn" style={{ marginTop: '5px' }}>
+                        Trade Now
+                      </a>
+                      <a href="#" className="btn button" style={{ marginTop: '5px' }}>
+                        Buy CST
+                      </a>
+                    </div>
+                  </div>
+                  <div className="col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
+                    <div className="row ">
+                      <div className="col-md-12 d-flex justify-content-center align-items-center ">
+                        <img src={logo2} className="ule_animation2 ulImge" />
+                        <img src={tron} className="ule_animation2" />
+                      </div>
+                      <div className="col-md-12 d-flex justify-content-center align-items-center ">
+                        <img src={bnb} className="ule_animation2" />
+                        <img src={usdt} className="ule_animation2 ulImge" />
+                      </div>
+                    </div>
+                    {/* <div className="row">
+                      <div className="col-md-6">
+                        <img src={tron} className="ule_animation2" />
+                      </div>
+                      <div className="col-md-6">
+                        <img src={usdt} className="ule_animation2" />
+                      </div>
+                    </div> */}
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section className="defi_main">
+              <div className="container">
+                <div className="row">
+                  <div className="col-md-12 text-center">
+                    <div className="defi_heading text-center">
+                      <h1>Tokenomics</h1>
+                    </div>
+                    <img src={token} width="100%" />
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section className="defi_main">
+              <div className="container">
+                <div className="row">
+                  <div className="col-md-6">
+                    <div className="defi_heading text-left" style={{ textAlign: 'start' }}>
+                      <h1>Six and Ten Patti Decentralized Games on CSTSWAP and Earn CST Token.</h1>
+                    </div>
+                  </div>
+                  <div
+                    className="col-md-6"
+                    // style={{ textAlign: '-webkit-center' }}
+                  >
+                    <div className="ule_animation3">
+                      <img src={thumb} alt="" width="100%" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
           </div>
         </div>
       </section>
+      <footer>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-5">
+              <p className="footer">© Copyright 2022 cstswap.finance All Rights Reserved.</p>
+            </div>
+            <div className="col-md-7">
+              <div className="social_icon" style={{ textAlign: 'right' }}>
+                <ul>
+                  <li>
+                    <a href="https://www.facebook.com/Coin-Stake-102162452390259/" title="Facebook">
+                      <i className="fa fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://t.me/coinstake01" title="Telegram">
+                      <i className="fa fa-paper-plane"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/coinstake01/" title="Instagram">
+                      <i className="fa fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/Coin__Stake" title="Twitter">
+                      <i className="fa fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/channel/UCuMyPsrFiQwaXrO-nmgGd1w" title="Linkedin">
+                      <i className="fa fa-youtube-play"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </>
   )
 }
