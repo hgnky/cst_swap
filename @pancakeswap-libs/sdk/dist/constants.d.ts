@@ -15,8 +15,8 @@ export declare enum Rounding {
 }
 // export declare const FACTORY_ADDRESS = "0x1730484cd33Fb46B22177f3Ffe8E002b4D7E3600";
 // export declare const INIT_CODE_HASH = "0xe1a4292e78925c53bcb106503ec2c9a30c35f3fde4c084afc5af611bcffde55b";
-export declare const FACTORY_ADDRESS = "0x908e0E7Adc65C9c203FF59635938A24E1FAa609b";
-export declare const INIT_CODE_HASH = "0x9bd282cc67353b48ff306333f879b5b62cf2807fda3d45cfaf007b0a5f1a1d6f";
+export declare const FACTORY_ADDRESS = "0x523aE64cF1c91C1a2AEE536e6C8903630A745ba1";
+export declare const INIT_CODE_HASH = "0x8ec78f39ec52729385c36d930a3d7a921b2697863627841fd4f89f88a1f2eee5";
 
 // export declare const FACTORY_ADDRESS = "0x038Ec5ab93EEAF0DAfFcf1212C2eaa13a7E66aa5";
 // export declare const INIT_CODE_HASH = "0xa132003d5106f0dbf544f14c070a6c70581b2d60176f472b8257b9867c6613de";
