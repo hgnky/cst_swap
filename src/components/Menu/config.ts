@@ -35,12 +35,12 @@ const config: MenuEntry[] = [
   {
     label: '6 Patti CST Game',
     icon: 'TeamBattleIcon',
-    href: 'https://www.game.cstswap.finance',
+    href: 'https://magenta-sunburst-07ed8b.netlify.app',
   },
   {
     label: '10 Patti CST Game',
     icon: 'TeamBattleIcon',
-    href: 'https://www.game2.cstswap.finance',
+    href: 'https://effulgent-scone-3584e8.netlify.app/',
   },
   // {
   //   label: 'Lottery',
